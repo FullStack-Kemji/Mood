@@ -56,12 +56,13 @@ body, .container, p, h1, button {
 /* Mobile Phone Designs */
 @media (max-width: 600px) {
     body, button {
-        background-color: white;
+        background-color: #FDFDFD;
     }
     .container {
         background-color: black;
     }
     h1, p {
-        color: white;
+        color: #FEFEFE;
     }
 }
+
