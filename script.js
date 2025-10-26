@@ -13,11 +13,11 @@ function mood () {
     
     if (mood === "happy") {
         feedback = ("Thats great, " + username + "! 🙂"), 
-        document.body.style.backgroundColor = "#FFD93D";
-        container.style.backgroundColor = "#FFEE88";
-        document.querySelector("h1").style.color = "#FFD93D";
-        document.querySelector("button").style.backgroundColor = "#FFD93D";
-        document.querySelector("p").style.color = "#FFD93D";
+        document.body.style.backgroundColor = "#FFEE88";
+        container.style.backgroundColor = "#FFD93D";
+        document.querySelector("h1").style.color = "#FFEE88";
+        document.querySelector("button").style.backgroundColor = "#FFEE88";
+        document.querySelector("p").style.color = "#FFEE88";
     } 
     else if (mood === "default") {
         feedback = ("Thank You, " + username), 
@@ -34,7 +34,7 @@ function mood () {
     else if (mood === "sad") {
         feedback = ("Hope it gets better " + username + " 😭")
         document.body.style.backgroundColor = "#4A90E2";
-        container.style.backgroundColor = "#D4A017";
+        container.style.backgroundColor = "#1E5BA3";
         document.querySelector("h1").style.color = "#4A90E2";
         document.querySelector("button").style.backgroundColor = "#4A90E2";
         document.querySelector("p").style.color = "#4A90E2";
@@ -74,7 +74,6 @@ function mood () {
     feedbackMessage.textContent = feedback
     
 }
-
 
 
 
