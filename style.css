@@ -47,4 +47,5 @@ p {
 
 body, .container, p, h1, button {
     transition: background-color 0.8s ease, color 0.8s ease-out;
+
 }
