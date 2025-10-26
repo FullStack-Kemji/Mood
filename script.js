@@ -1,8 +1,7 @@
 
 function mood () {
     // assign everything that will need to be styled
-    let container = document.querySelector(".container");
-    
+    const container = document.querySelector(".container");
     // get the user's name and their mood
     
     let username = document.getElementById("username").value       
@@ -18,12 +17,20 @@ function mood () {
     }
     
     if (mood === "happy") {
-        feedback = ("Thats great, " + username + "! 🙂"), 
-        document.body.style.backgroundColor = "#FFEE88";
-        container.style.backgroundColor = "#D4A017";
-        document.querySelector("h1").style.color = "#FFD93D";
-        document.querySelector("button").style.backgroundColor = "#FFD93D";
-        document.querySelector("p").style.color = "#FFD93D";
+        if (window.innerWidth <= 600) {
+            document.body.style.backgroundColor ="#FFD54F";
+            container.style.backgroundColor = "#FFC107";
+            document.h1.style.color = "#FFCA28";
+            document.p.style.color = "#FFCA28"
+        }
+        else {
+            feedback = ("Thats great, " + username + "! 🙂"), 
+            document.body.style.backgroundColor = "#FFEE88";
+            container.style.backgroundColor = "#D4A017";
+            document.querySelector("h1").style.color = "#FFD93D";
+            document.querySelector("button").style.backgroundColor = "#FFD93D";
+            document.querySelector("p").style.color = "#FFD93D";
+        }
     } 
     else if (mood === "default") {
         feedback = ("Thank You, " + username + "!"), 
@@ -79,6 +86,7 @@ function mood () {
     feedbackMessage.textContent = feedback
     
 }
+
 
 
 
