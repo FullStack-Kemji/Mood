@@ -13,7 +13,7 @@ function mood () {
     let feedback = "";
 
     if (username === "") {
-       alert("Please fill in both your name and how you feel.")
+       alert("Please fill in your name.")
        return;
     }
     
