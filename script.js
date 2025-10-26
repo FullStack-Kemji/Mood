@@ -12,7 +12,7 @@ function mood () {
     let feedback = "";
     
     if (mood === "happy") {
-        feedback = ("Thats great! " + username + " 🙂"), 
+        feedback = ("Thats great, " + username + "! 🙂"), 
         document.body.style.backgroundColor = "goldenrod";
         container.style.backgroundColor = "yellow";
         document.querySelector("h1").style.color = "goldenrod";
@@ -74,6 +74,7 @@ function mood () {
     feedbackMessage.textContent = feedback
     
 }
+
 
 
 
