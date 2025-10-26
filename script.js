@@ -11,7 +11,6 @@
     <div class="container">
         <h1>MooD</h1>
         
-        <form>
 
             <input type="text" placeholder="what is your name" id="username" required>
             
@@ -25,7 +24,6 @@
             </select>
             <button onclick="mood()">This Is How Im feeling</button>
         
-        </form>
 
         <p id="message">Thank You!</p>
 
@@ -37,3 +35,4 @@
 
 </body>
 </html>
+
